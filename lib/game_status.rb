@@ -40,7 +40,7 @@ def full?(board)
   board.all? {|space| space != " "}
 end
 
-def draw?
+def draw?(board)
   
 end
 
