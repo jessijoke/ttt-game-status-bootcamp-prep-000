@@ -36,9 +36,11 @@ def won?(board)
   return false
 end
 
-=begin
-combo.all? do |number|
-  if number == "X" || number == "O"
-    return WIN_COMBINATIONS[arrCount]
+def full?
 end
-=end
+
+def draw?
+end
+
+def over?
+end
