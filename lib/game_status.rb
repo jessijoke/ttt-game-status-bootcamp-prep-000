@@ -41,6 +41,7 @@ def full?(board)
 end
 
 def draw?
+  
 end
 
 def over?
