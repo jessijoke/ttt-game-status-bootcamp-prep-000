@@ -44,3 +44,6 @@ end
 
 def over?
 end
+
+def winner
+end
