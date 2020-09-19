@@ -15,22 +15,15 @@ WIN_COMBINATIONS = [
   [2,5,8], # Column 3
   [0,4,8], # Diagonal 1
   [6,4,2] # Diagonal 2
+  
 ]
 
 
 def won?(board)
   WIN_COMBINATIONS.each do |combo|
-    arrCount = 0
-    combo.all? do |number|
-      if number == "X" || number == "O"
-        return WIN_COMBINATIONS[arrCount]
-      end
-    end
-    arrCount += 1
-    puts arrCount
+    win_index_1 = win_combination[0]
   end
 end
-won?(board)
 
 =begin
 combo.all? do |number|
